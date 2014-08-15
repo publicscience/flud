@@ -17,7 +17,6 @@ cd /srv/flud
 mv config-sample.py config.py
 source /env/flud/bin/activate
 pip install -r requirements.txt
-bower install
 
 # Supervisor
 sudo cp /srv/flud/setup/supervisor/*.conf /etc/supervisor/conf.d/
