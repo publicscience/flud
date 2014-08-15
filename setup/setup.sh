@@ -6,7 +6,7 @@ sudo apt-get install nginx python3-pip git uwsgi supervisor uwsgi-plugin-python 
 
 # Virtualenv
 pip3 install virtualenv
-virtualenv -p python3 /env/flud --no-site-packages
+virtualenv -p python2.7 /env/flud --no-site-packages
 
 # Sass
 gem install sass
