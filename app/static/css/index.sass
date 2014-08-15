@@ -1,0 +1,40 @@
+/* ==========================================
+	 Config
+	 ========================================== */
+$primary-color: #2b7fdc
+$background-color: #fcfcfc
+$header-color: #20232d
+$secondary-color: #86d886
+$muted-color: #bbbdbf
+$primary-type: 'Graphik Web', Verdana, Geneva, sans-serif
+$primary-type-color: #323232
+$selection-background: $secondary-color
+
+@import "core/core"
+
+/* ==========================================
+	 Extensions
+	 ========================================== */
+@import "exts/fonts"
+
+html, body
+    font-family: $primary-type
+    color: $primary-type-color
+    background: $background-color
+
+ul
+    max-width: 600px
+    margin: 0 auto
+    padding: 2em
+
+.tweets
+    li
+        margin-bottom: 6em
+
+img
+    margin: 0 0 1em 0
+.meta
+    color: #ddd
+    font-size: 0.8em
+p
+    margin-top: 0

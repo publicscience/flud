@@ -1,0 +1,7 @@
+extends layout.jade
+
+block content
+    ul.trends
+        for trend in trends
+            li
+                a(href=url_for('tweets', query=trend))= trend

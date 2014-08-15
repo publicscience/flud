@@ -1,0 +1,11 @@
+extends layout.jade
+
+block content
+    ul.tweets
+        for tweet in tweets
+            li
+                for media in tweet.media
+                    a(href=media.url)
+                        img(src=media.media_url)
+                .meta= tweet.created_at
+                p= tweet.body
