@@ -14,6 +14,9 @@ Visual Twitter streams for queries.
     * Activate it: `source ~/env/flud/bin/activate`
 * Install dependencies: `pip install -r requirements.txt`
 * Run the server: `python application.py`
+* Follow a twitter query/story visually: `localhost:5000/_ferguson`. Use
+`_` to represent a hash (`#`) since hashes in urls aren't passed to the
+backend.
 
 If you're deploying it to a server, you can use the setup script in
 `setup/setup.sh`.
