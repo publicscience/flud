@@ -1,4 +1,4 @@
-# FLUD
+# GLIMPSE
 
 Visual Twitter streams for queries.
 
