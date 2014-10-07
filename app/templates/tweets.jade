@@ -7,5 +7,6 @@ block content
                 for media in tweet.media
                     a(href=media.url)
                         img(src=media.media_url)
-                .meta= tweet.created_at
-                p= tweet.body
+                .info
+                    .meta= tweet.created_at
+                    p= tweet.body
